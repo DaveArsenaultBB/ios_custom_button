@@ -46,6 +46,8 @@
     self.button.backgroundColor = [UIColor redColor];
     self.button.layer.shadowColor = [UIColor blackColor].CGColor;
     self.button.layer.shadowOffset = CGSizeMake(4, 2);
+    self.button.layer.borderColor = [UIColor yellowColor].CGColor;
+    self.button.layer.borderWidth = 2;
     [self setButtonShadow:YES changeSwitch:YES];
     [self setButtonRadius:20 changeSlider:YES];
     
